@@ -79,5 +79,5 @@ The generated data is printed to terminal or stored in the `Project2_outputs/` d
 ## Plotting
 Generate the interactively by opening the Jupyter notebook and runnning the code cells.
 
-The corresponding files are automatically stored in the `figures/` directory. 
+The corresponding files are automatically stored in the `plotting/` directory. 
 
