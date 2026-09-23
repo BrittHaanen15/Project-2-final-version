@@ -1,4 +1,4 @@
-# Project title
+# Project 2 FYS3150/4150: Working with eigenvector-eigenvalue problems and the Jacobi rotation algorithm
 
 This repository contains the code for Project 2 in the course FYS3150/FYS4150 at the University of Oslo. 
 The project is developed by: Britt Haanen
