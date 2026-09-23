@@ -16,22 +16,13 @@ The repository is organised using the src/include convention, and the file tree 
 │   ├── Discrete_solution_n100.txt
 │   ├── Size_and_iterations_dense.txt
 │   └── Size_and_iterations_tridiagonal.txt
-├── SizeVSIters_Dense.cpp
-├── SizeVSIters_Dense.exe
-├── SizeVSIters_Tridiagonal.cpp
-├── SizeVSIters_Tridiagonal.exe
-├── Solve_discretised_eqn.cpp
-├── Solve_discretised_eqn.exe
-├── Total_Jacobi_solver.cpp
-├── Total_Jacobi_solver.exe
-├── UnitTest_Analytical_vs_Eigenmodule.cpp
-├── UnitTest_Analytical_vs_Eigenmodule.exe
-├── UnitTest_FindingLargestOffdiaElement.cpp
-├── UnitTest_FindingLargestOffdiaElement.exe
-├── UnitTest_JacobiEigenSolver.cpp
-├── UnitTest_JacobiEigenSolver.exe
-├── UnitTest_OneJacobiRotation.cpp
-├── UnitTest_OneJacobiRotation.exe
+├── plotting
+│   ├── Buckling beam states n10.pdf
+│   ├── Buckling beam states n100.pdf
+│   ├── Iters_vs_N.pdf
+│   ├── Iters_vs_N_squared.pdf
+│   └── Plotting.ipynb
+... cpp and .exe files for all main C++ codes answering the project problems
 ├── include
 │   ├── eigen-5.0.1
 │   └── utils.hpp
@@ -77,7 +68,7 @@ To run the program, do
 The generated data is printed to terminal or stored in the `Project2_outputs/` directory. 
 
 ## Plotting
-Generate the interactively by opening the Jupyter notebook and runnning the code cells.
+Generate the interactively by opening the `Plotting.ipynb` Jupyter notebook in the `plotting/` folder and running the code cells.
 
 The corresponding files are automatically stored in the `plotting/` directory. 
 
